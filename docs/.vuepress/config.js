@@ -3,7 +3,8 @@ module.exports = {
   title: 'will个人主页',
   // 网页描述
   description: '记录前端点点滴滴',
-  base: 'myBlog',
+  dest: './myBlog',
+  base: '/myBlog/',
   head: [
     // 页面icon
     ['link', { rel: 'icon', href: '/logo.png' }]
